@@ -2,6 +2,9 @@
 node_modules
 /dist
 
+*.log
+.nvm
+package-lock.json
 
 # local env files
 .env.local
@@ -21,3 +24,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Visual studio
+.vscode
+.vs
